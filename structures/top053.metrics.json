@@ -1,0 +1,30 @@
+{
+  "best_sample": {
+    "metrics": {
+      "structure_confidence": 0.8066899180412292,
+      "ptm": 0.22916406393051147,
+      "iptm": 0,
+      "ligand_iptm": 0,
+      "protein_iptm": 0,
+      "complex_plddt": 0.9510714411735535,
+      "complex_iplddt": 0.9510714411735535,
+      "complex_pde": 0.3158917725086212,
+      "complex_ipde": 0
+    }
+  },
+  "all_sample_results": [
+    {
+      "metrics": {
+        "structure_confidence": 0.8066899180412292,
+        "ptm": 0.22916406393051147,
+        "iptm": 0,
+        "ligand_iptm": 0,
+        "protein_iptm": 0,
+        "complex_plddt": 0.9510714411735535,
+        "complex_iplddt": 0.9510714411735535,
+        "complex_pde": 0.3158917725086212,
+        "complex_ipde": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "official_sequence_functions": "passed",
+  "all_top_reference_metric_pairs_agree": 3944800,
+  "two_export_runs_byte_identical": true,
+  "library_fasta_sha256": "f8199e614e5025651f8d22fb08410cc418e97fc1f13486dc119da78d98d2fe76",
+  "top_fasta_sha256": "d3b4c89690a86f2258f3a29e45894bb04ebff6c53ee94f5c13ee779da72a642b",
+  "scope": "CSV export and sequence rules only; not independent regeneration, chemistry, efficacy, or complete submission eligibility"
+}

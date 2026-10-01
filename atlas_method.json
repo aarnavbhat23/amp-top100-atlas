@@ -1,0 +1,30 @@
+{
+  "embedding_model": "facebook/esm2_t12_35M_UR50D",
+  "model_revision": "6fbf070e65b0b7291e7bbcd451118c216cff79d8",
+  "pooling": "Final-layer residue mean; excludes special tokens and padding",
+  "embedding_shape": [
+    100,
+    480
+  ],
+  "umap_parameters": {
+    "n_components": 3,
+    "n_neighbors": 15,
+    "min_dist": 0.2,
+    "metric": "cosine",
+    "n_jobs": 1
+  },
+  "seed": 42,
+  "comparison_seed": 43,
+  "trustworthiness_cosine_k10": 0.926414201183432,
+  "mean_original_neighbor_recall_k10": 0.6079999999999999,
+  "mean_seed_neighbor_overlap_k10": 0.8210000000000002,
+  "population": "Only supplied top100; no reference/library background embedded",
+  "limitations": "Exploratory layout, not a structural or activity model. Axes and cluster spacing have no physical units.",
+  "versions": {
+    "torch": "2.14.1",
+    "transformers": "5.18.0",
+    "umap-learn": "0.5.12",
+    "numpy": "2.5.3",
+    "plotly": "7.1.0"
+  }
+}
