@@ -18,6 +18,18 @@ Open http://127.0.0.1:8903 in a WebGL-enabled browser. Opening index.html direct
 
 ## Explore
 
+### Upload your own sequences
+
+Open [Upload explorer](https://aarnavbhat23.github.io/amp-top100-atlas/upload.html). CSV and TSV require a header row and explicit sequence-column selection. FASTA supports multiline sequences. The explorer reports invalid letters, empty sequences, duplicate occurrences and lengths outside 8–50. Case and whitespace normalization is disclosed. Blank table rows are ignored. Limits: 10 MB, 50,000 records, 10,000 characters per record.
+
+Change axes and colors in 2D or 3D, filter by identifier or sequence, inspect individual records and export all feature results or a validation report. Duplicate records remain visible unless hidden. The table previews 200 filtered records; exports retain every record. Property axes are not ESM embeddings or UMAP coordinates.
+
+Files remain in the browser. No paid predictions or remote upload occurs. Exact matches to the original top100 can open their existing predicted structures. New sequences do not automatically receive structures or challenge-reference novelty checks. The feature module has parser/validation tests and regression checks against all 100 existing audited peptides: `node test-features.mjs`.
+
+Rendering of uploaded data uses Plotly.js under its MIT license, retained in the bundled script header. This explorer currently provides a charge-count proxy, not pH-dependent net charge or predicted pI.
+
+### Original top100 atlas
+
 - Drag the map to rotate; scroll to zoom. Click a ribbon, choose a rank, or search a sequence substring.
 - Change map colour to compare confidence, length, charge, rank or reference similarity.
 - The right-hand molecular viewer rotates independently. Expand it, switch representations, or select individual sequence letters to highlight atoms.
