@@ -1,14 +1,27 @@
-# AMP Atlas — Vinay's top 100
+# AMP Structure Atlas
 
-**Live explorer:** https://aarnavbhat23.github.io/amp-top100-atlas/
+**[Open the live explorer →](https://aarnavbhat23.github.io/amp-top100-atlas/)**
 
-Independent visualization by Aarnav Bhat, based on Vinay Prabhu's submission. This repository is separate from the original submission and does not modify it. GitHub Pages serves the static files from the root of the main branch.
+A browser explorer for 100 Boltz-2.1 predicted antimicrobial peptide structures,
+with residue-level confidence, PAE matrices, sequence descriptors and
+reference-similarity comparisons. All 100 structures pass exact sequence, chain,
+coordinate and confidence validation; the upload module ships parser tests and
+regression checks against every audited peptide.
 
-This portable explorer contains all 100 Boltz-2.1 predicted monomer structures, sequence descriptors, reference comparisons, residue confidence and PAE matrices. It is an ESM Atlas–inspired local explorer, not affiliated with Meta's ESM Atlas.
+> **Attribution.** The top-100 peptide set is **Vinay Prabhu's** competition
+> submission. This repository is the independent visualization, validation and
+> audit tooling built by Aarnav Bhat around that set. It is separate from the
+> original submission and does not modify it. ESM Atlas–inspired; not affiliated
+> with Meta's ESM Atlas.
 
-## Open
+**What's here:** a 3D cosine-UMAP map of ESM-2 embeddings, a molecular viewer with
+per-residue atom selection, downloadable CIF/PDB/raw confidence metrics per
+peptide, and a client-side upload mode that validates arbitrary FASTA/CSV without
+sending anything off the machine.
 
-Unzip the archive, open a terminal in this folder and run:
+## Run locally
+
+Clone the repository, open a terminal in this folder and run:
 
 ```sh
 python3 -m http.server 8903 --bind 127.0.0.1
