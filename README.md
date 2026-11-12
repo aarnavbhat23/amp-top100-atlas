@@ -14,10 +14,7 @@ regression checks against every audited peptide.
 > original submission and does not modify it. ESM Atlas–inspired; not affiliated
 > with Meta's ESM Atlas.
 
-**What's here:** a 3D cosine-UMAP map of ESM-2 embeddings, a molecular viewer with
-per-residue atom selection, downloadable CIF/PDB/raw confidence metrics per
-peptide, and a client-side upload mode that validates arbitrary FASTA/CSV without
-sending anything off the machine.
+The map uses cosine UMAP on ESM-2 embeddings. Select a structure to see its atoms by residue or download its CIF, PDB, and confidence metrics. The browser also validates uploaded FASTA and CSV files locally.
 
 ## Run locally
 
